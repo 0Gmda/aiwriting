@@ -1,15 +1,15 @@
-FROM gitpod/workspace-full:latest
-#FROM ubuntu:14.04
+#FROM gitpod/workspace-full:latest
+FROM ubuntu:14.04
 
-USER root
+#USER root
 # Install
-RUN apt-get update
-RUN apt-get install mecab
+#RUN apt-get update
+#RUN apt-get install mecab
 #RUN apt-get install mecab mecab-naist-jdic python-mecab
 
-USER gitpod
+#USER gitpod
 # Apply user-specific settings
 #ENV ...
 
 # Give back control
-USER root
+#USER root
