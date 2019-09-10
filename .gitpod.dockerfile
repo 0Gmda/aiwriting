@@ -1,10 +1,9 @@
-#FROM gitpod/workspace-full:latest
-FROM ubuntu:14.04
+FROM gitpod/workspace-full:latest
 
-#USER root
+USER root
 # Install
-#RUN apt-get update
-#RUN apt-get install mecab
+RUN apt-get update
+RUN apt-get install blender
 #RUN apt-get install mecab mecab-naist-jdic python-mecab
 
 #USER gitpod
