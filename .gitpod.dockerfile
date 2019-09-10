@@ -4,6 +4,7 @@ FROM gitpod/workspace-full:latest
 USER root
 # Install
 RUN apt-get update
+RUN apt-get install mecab
 #RUN apt-get install mecab mecab-naist-jdic python-mecab
 
 USER gitpod
